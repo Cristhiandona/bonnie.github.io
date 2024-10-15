@@ -16,16 +16,16 @@ GamePlaymanager = {
 
     },
     preload: function(){
-        game.load.image('background','Asset/images/background.png');
-        game.load.spritesheet('horse','Asset/images/horse.png',84,156,2);
-        game.load.spritesheet('diamonds','Asset/images/diamonds.png', 81, 84,4);
+        game.load.image('background','background.png');
+        game.load.spritesheet('horse','horse.png',84,156,2);
+        game.load.spritesheet('diamonds','diamonds.png', 81, 84,4);
 
-        game.load.image('explosion','Asset/images/explosion.png');
-        game.load.image('shark','Asset/images/lobo.png');
-        game.load.image('fishes','Asset/images/ciaf.png');
-        game.load.image('mollusk','Asset/images/FotoJet.png');
-        game.load.image('booble1','Asset/images/lobo.png');
-        game.load.image('booble2','Asset/images/trampa1.png');
+        game.load.image('explosion','explosion.png');
+        game.load.image('shark','lobo.png');
+        game.load.image('fishes','ciaf.png');
+        game.load.image('mollusk','FotoJet.png');
+        game.load.image('booble1','lobo.png');
+        game.load.image('booble2','trampa1.png');
 
     },
 
